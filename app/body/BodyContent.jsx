@@ -1,4 +1,8 @@
 import React from 'react';
+import CHome from './contents/CHome';
+import CContact from './contents/CContact';
+import CAboutUS from './contents/CAboutUS';
+import CService from './contents/CService';
 
 const BodyContent = ({ contentId }) => {
   let content;
@@ -7,11 +11,11 @@ const BodyContent = ({ contentId }) => {
   if (contentId === 'home') {
     content = <CHome />;
   } else if (contentId === 'service') {
-    content = <CResume />;
+    content = <CService />;
   } else if (contentId === 'aboutUS') {
-    content = <CWorks />;
+    content = <CAboutUS />;
   } else if (contentId === 'ContactUS') {
-    content = <CBlogs />;
+    content = <CContact />;
   } else {
     content = <CHome />;
   } 
