@@ -16,8 +16,10 @@ const SecondSec = () => {
 
   return (
     <div>
-        <Image src="/logo.png" alt="logo" width={200} height={200} />
-        <NavBar onLinkClick={handleLinkClick} />
+        <div className='flex flex-row items-center justify-around py-3 bg-zinc-300'>
+          <Image src="/logo.png" alt="logo" width={100} height={100} />
+          <NavBar onLinkClick={handleLinkClick} />
+        </div>
         <BodyContent contentId={selectedContent} />
     </div>
   )
