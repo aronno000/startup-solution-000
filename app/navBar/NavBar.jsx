@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { BsFillBriefcaseFill, BsFillSendFill } from "react-icons/bs";
 import { FaPager, FaHome } from "react-icons/fa";
+import {Image} from 'next/image'
 
 
 const NavBar = ({onLinkClick}) => {
@@ -14,12 +15,6 @@ const NavBar = ({onLinkClick}) => {
 
   return (
     <div className='flex flex-row items-center'>
-
-      <div>
-        
-      </div>
-
-
 
     <div
         onClick={() => handleLinkClick('home')}
