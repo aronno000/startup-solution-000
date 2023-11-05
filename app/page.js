@@ -16,7 +16,7 @@ const SecondSec = () => {
 
   return (
     <div>
-        <div className='flex flex-row items-center justify-around py-3 bg-zinc-300'>
+        <div className='flex justify-around items-center px-10 py-2 sticky top-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border-b-4 border-indigo-300'>
           <Image src="/logo.png" alt="logo" width={100} height={100} />
           <NavBar onLinkClick={handleLinkClick} />
         </div>

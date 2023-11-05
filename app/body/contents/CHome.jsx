@@ -1,8 +1,13 @@
 import React from 'react'
+import CHero from './home/CHero'
+import CSecondSec from './home/CSecondSec'
 
 const CHome = () => {
   return (
-    <div>CHome</div>
+    <>
+    <CHero />
+    <CSecondSec />
+    </>
   )
 }
 
