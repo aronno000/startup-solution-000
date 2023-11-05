@@ -6,7 +6,9 @@ const CHome = () => {
   return (
     <>
     <CHero />
+    <hr className='border-zinc-200 h-2' />
     <CSecondSec />
+    <hr className='border-zinc-200 h-2' />
     </>
   )
 }
